@@ -1,0 +1,25 @@
+{
+  "name": "frontend-development-course",
+  "version": "1.0.0",
+  "description": "В течение курса с нуля разрабатывается полноценное [веб-приложение](https://github.com/lyaplyap/reduckter).",
+  "main": "index.js",
+  "source": "src/pages/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor531205/frontend-development-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor531205/frontend-development-course/issues"
+  },
+  "homepage": "https://github.com/igor531205/frontend-development-course#readme",
+  "devDependencies": {
+    "parcel": "^2.14.0"
+  }
+}
