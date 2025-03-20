@@ -1,4 +1,105 @@
-html {
-  font-family: Raleway, sans-serif;
+:root {
+  --surface-primary: #080808;
+  --surface-secondary: #1b1b1b;
+  --text-primary: #9c9c9c;
 }
-/*# sourceMappingURL=styles.ebeadb08.css.map */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--surface-primary);
+  color: var(--text-primary);
+  font-family: IBM Plex Mono, monospace;
+  font-size: 14px;
+}
+
+header {
+  background-color: var(--surface-secondary);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+nav ul {
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.social-links a {
+  margin-left: 10px;
+}
+
+main {
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  display: flex;
+}
+
+.intro {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.intro-text {
+  max-width: 50%;
+}
+
+.intro-text h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Raleway, sans-serif;
+  font-size: 48px;
+}
+
+.intro-text p {
+  color: var(--text-primary);
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.cta-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3feb00;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  transition: background-color .3s;
+}
+
+.cta-button:hover {
+  background-color: #62ab1b;
+}
+
+.intro-image img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+/*# sourceMappingURL=pages.ebeadb08.css.map */
