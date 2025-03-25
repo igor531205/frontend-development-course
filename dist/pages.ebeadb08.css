@@ -74,13 +74,15 @@ main {
   color: #fff;
   margin-bottom: 20px;
   font-family: Raleway, sans-serif;
-  font-size: 48px;
+  font-size: 44px;
+  font-weight: 800;
 }
 
 .intro-text p {
   color: var(--text-primary);
   margin-bottom: 30px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .cta-button {
@@ -89,6 +91,7 @@ main {
   background-color: #3feb00;
   border: none;
   padding: 15px 30px;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   transition: background-color .3s;
 }
@@ -101,5 +104,37 @@ main {
   border-radius: 50%;
   width: 350px;
   height: 350px;
+}
+
+footer {
+  background-color: var(--surface-secondary);
+  color: var(--text-primary);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+}
+
+.partners {
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-left: 20px;
+  display: flex;
+}
+
+.partners img {
+  max-width: 50px;
+  height: auto;
 }
 /*# sourceMappingURL=pages.ebeadb08.css.map */
